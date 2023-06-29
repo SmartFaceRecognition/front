@@ -1,0 +1,8 @@
+﻿.App{
+    text-align: center;
+    background-color: #ffffff;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #ffffff;
+    align-items: center;
+}

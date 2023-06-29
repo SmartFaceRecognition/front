@@ -1,0 +1,11 @@
+﻿.box {
+  width: 850px;
+  height: 560px;
+  background-color: #112d4e;
+}
+
+.padding {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  font-size: 35px;
+}
