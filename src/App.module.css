@@ -1,8 +1,11 @@
 ﻿.App{
-    text-align: center;
-    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: #ffffff;
+}
+
+.App2{
     align-items: center;
 }

@@ -1,5 +1,35 @@
-﻿.header{
-  width: 100%;
+﻿.title {
+  color: #000000;
+  text-align: start;
+  margin-left: 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.header {
+  width: 100vw;
   margin: 0;
   background-color: #112d4e;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+div {
+  color: white;
 }

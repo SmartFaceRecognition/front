@@ -1,0 +1,41 @@
+﻿.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row: 1fr 5fr 1fr;
+  place-items: left;
+}
+
+.item:nth-child(2) {
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.item:nth-child(2) * {
+  font-size: 20px;
+}
+
+
+table {
+  font-size: 20px;
+  width: 100vh;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:not(:last-child) {
+  border-bottom: 1px solid #000000;
+}
+
+td,
+th {
+  padding: 10px;
+}
+
+.paging {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}

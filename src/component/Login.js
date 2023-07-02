@@ -22,7 +22,7 @@ function Login() {
     });
   })();
   return (
-    <div style={{justifyContent:"center"}}>
+    <div className={styles.App}>
       <div className={styles.box}>
         <div className="container text-center">
           <div className="row">
@@ -31,10 +31,14 @@ function Login() {
 
           <form className="needs-validation" noValidate>
             <div className="row" style={{ paddingTop: "60px" }}>
-              <div className="col-2"/>
-                <label for="id" className="form-label col" style={{textAlign: 'start'}}>
-                  id
-                </label>
+              <div className="col-2" />
+              <label
+                for="id"
+                className="form-label col"
+                style={{ textAlign: "start" }}
+              >
+                id
+              </label>
               <div className="col-4">
                 <input
                   type="text"
@@ -49,8 +53,12 @@ function Login() {
             </div>
 
             <div className="row" style={{ paddingTop: "80px" }}>
-            <div className="col-2"/>
-              <label for="password" className="form-label col" style={{textAlign: 'start'}}>
+              <div className="col-2" />
+              <label
+                for="password"
+                className="form-label col"
+                style={{ textAlign: "start" }}
+              >
                 password
               </label>
               <div className="col-4">
